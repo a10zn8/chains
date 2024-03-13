@@ -4116,7 +4116,7 @@
     "symbol": "MEER",
     "decimals": 18
   },
-  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed2.meerscan.com", "https://qng.rpc.qitmeer.io", "https://mainnet.meerlabs.com", "https://rpc.dimai.ai", "https://rpc.woowow.io"],
+  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://qng.rpc.qitmeer.io", "https://mainnet.meerlabs.com", "https://rpc.dimai.ai", "https://rpc.woowow.io"],
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
@@ -8644,6 +8644,19 @@
   "faucets": [],
   "infoURL": "https://syndicate.io"
 }, {
+  "name": "SIC Testnet",
+  "chainId": 5102,
+  "shortName": "sic-testnet",
+  "networkId": 5102,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sic-testnet-zvr7tlkzsi.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.fwb.help/"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
@@ -12579,7 +12592,7 @@
     "symbol": "ETN",
     "decimals": 18
   },
-  "rpc": ["https://api.electroneum.com"],
+  "rpc": ["https://rpc.electroneum.com"],
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {
@@ -15209,6 +15222,19 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
+  "name": "Galadriel Testnet",
+  "chainId": 696969,
+  "shortName": "galadriel-testnet",
+  "networkId": 696969,
+  "nativeCurrency": {
+    "name": "Galadriel Testnet token",
+    "symbol": "GAL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.galadriel.com"],
+  "faucets": ["https://docs.galadriel.com/faucet"],
+  "infoURL": "https://galadriel.com"
+}, {
   "name": "Tiltyard Mainnet Subnet",
   "chainId": 710420,
   "shortName": "tiltyardmainnet",
@@ -15738,7 +15764,7 @@
     "symbol": "ETN",
     "decimals": 18
   },
-  "rpc": ["https://api.electroneum.com"],
+  "rpc": ["https://testnet-rpc.electroneum.com"],
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {

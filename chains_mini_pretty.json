@@ -6005,6 +6005,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "Doric Network",
+  "chainId": 1717,
+  "shortName": "DRC",
+  "networkId": 1717,
+  "nativeCurrency": {
+    "name": "Doric Native Token",
+    "symbol": "DRC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.doric.network"],
+  "faucets": [],
+  "infoURL": "https://doric.network"
+}, {
   "name": "Palette Chain Mainnet",
   "chainId": 1718,
   "shortName": "PCM",
@@ -6017,6 +6030,19 @@
   "rpc": ["https://palette-rpc.com:22000"],
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
+}, {
+  "name": "Reya Network",
+  "chainId": 1729,
+  "shortName": "reya",
+  "networkId": 1729,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
+  "faucets": [],
+  "infoURL": "https://reya.network"
 }, {
   "name": "PartyChain",
   "chainId": 1773,
@@ -6459,6 +6485,19 @@
   "rpc": ["https://jsonrpc.egem.io/custom"],
   "faucets": [],
   "infoURL": "https://egem.io"
+}, {
+  "name": "Hubble Exchange",
+  "chainId": 1992,
+  "shortName": "hubblenet",
+  "networkId": 1992,
+  "nativeCurrency": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hubble.exchange", "wss://ws-rpc.hubble.exchange"],
+  "faucets": [],
+  "infoURL": "https://www.hubble.exchange"
 }, {
   "name": "Ekta",
   "chainId": 1994,
@@ -7499,6 +7538,19 @@
   "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "HYCHAIN",
+  "chainId": 2911,
+  "shortName": "hychain",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
 }, {
   "name": "Xenon Chain Testnet",
   "chainId": 2941,
@@ -9944,6 +9996,19 @@
   "faucets": [],
   "infoURL": "https://ma.ro/"
 }, {
+  "name": "SuperLumio",
+  "chainId": 8866,
+  "shortName": "superlumio",
+  "networkId": 8866,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.lumio.io/"],
+  "faucets": [],
+  "infoURL": "https://lumio.io/"
+}, {
   "name": "Unique",
   "chainId": 8880,
   "shortName": "unq",
@@ -10031,7 +10096,7 @@
     "symbol": "tORE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/"],
+  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/", "https://rpc-orc.oredex.finance", "https://testnet-rpc.oredex.finance", "https://oredex-node.oredex.finance"],
   "faucets": ["https://faucetcoin.orenium.org"],
   "infoURL": "https://orenium.org"
 }, {
@@ -10385,6 +10450,19 @@
   "rpc": ["https://dl-rpc.dogelayer.org"],
   "faucets": [],
   "infoURL": "https://dogelayer.org"
+}, {
+  "name": "Larissa Chain",
+  "chainId": 9898,
+  "shortName": "lrs",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Larissa",
+    "symbol": "LRS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.larissa.network"],
+  "faucets": [],
+  "infoURL": "https://larissa.network"
 }, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
@@ -10763,9 +10841,22 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "BEVM Mainnet",
+  "chainId": 11501,
+  "shortName": "bevm",
+  "networkId": 11501,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "faucets": [],
+  "infoURL": "https://bevm.io"
+}, {
   "name": "BEVM Testnet",
   "chainId": 11503,
-  "shortName": "bevm",
+  "shortName": "bevm-test",
   "networkId": 11503,
   "nativeCurrency": {
     "name": "BTC",
@@ -11669,7 +11760,7 @@
     "symbol": "TEST",
     "decimals": 18
   },
-  "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
+  "rpc": ["https://testnet.sapphire.oasis.io", "wss://testnet.sapphire.oasis.io/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/sapphire"
 }, {
@@ -11815,6 +11906,19 @@
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
+}, {
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
 }, {
   "name": "MCH Verse Mainnet",
   "chainId": 29548,
@@ -12241,8 +12345,8 @@
     "symbol": "ROSE",
     "decimals": 18
   },
-  "rpc": ["https://testnet.emerald.oasis.dev/", "wss://testnet.emerald.oasis.dev/ws"],
-  "faucets": ["https://faucet.testnet.oasis.dev/"],
+  "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
+  "faucets": ["https://faucet.testnet.oasis.io/"],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
   "name": "Oasis Emerald",
@@ -12254,7 +12358,7 @@
     "symbol": "ROSE",
     "decimals": 18
   },
-  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
+  "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
@@ -13896,18 +14000,18 @@
   "faucets": [],
   "infoURL": "https://docs.gnosischain.com"
 }, {
-  "name": "Soverun Testnet",
+  "name": "Global Trust Network",
   "chainId": 101010,
-  "shortName": "SVRNt",
+  "shortName": "stabilityprotocol",
   "networkId": 101010,
   "nativeCurrency": {
-    "name": "Soverun",
-    "symbol": "SVRN",
+    "name": "FREE",
+    "symbol": "FREE",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.soverun.com"],
-  "faucets": ["https://faucet.soverun.com"],
-  "infoURL": "https://soverun.com"
+  "rpc": ["https://gtn.stabilityprotocol.com"],
+  "faucets": [],
+  "infoURL": "https://stabilityprotocol.com"
 }, {
   "name": "Crystaleum",
   "chainId": 103090,
@@ -16066,6 +16170,19 @@
   "rpc": ["https://net.iolite.io"],
   "faucets": [],
   "infoURL": "https://iolite.io"
+}, {
+  "name": "Stability Testnet",
+  "chainId": 20180427,
+  "shortName": "stabilitytestnet",
+  "networkId": 20180427,
+  "nativeCurrency": {
+    "name": "FREE",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "rpc": ["https://free.testnet.stabilityprotocol.com"],
+  "faucets": [],
+  "infoURL": "https://stabilityprotocol.com"
 }, {
   "name": "SmartMesh Mainnet",
   "chainId": 20180430,
